@@ -26,6 +26,7 @@ class App extends Component {
           <p>
             Hello world
           </p>
+          <Contactlist/>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -35,7 +36,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
-            <Contactlist/>
+            
       </div>
     );
   }
