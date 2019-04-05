@@ -9,7 +9,12 @@ class Contactlist extends React .Component {
       {name: 'Yes'},
       {name: 'What'}
     ]
-
+    return <ol>
+      {people.map(person =>(
+        <li key={person.name}>{person.name} </li>
+      ))}
+     
+    </ol>
   }
 }
 class App extends Component {
@@ -30,6 +35,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+            <Contactlist/>
       </div>
     );
   }
