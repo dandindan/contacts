@@ -7,7 +7,8 @@ class Contactlist extends React .Component {
     const people = [
       {name:'No'},
       {name: 'Yes'},
-      {name: 'What'}
+      {name: 'What'},
+      {name:'Black'}
     ]
     return <ol>
       {people.map(person =>(
