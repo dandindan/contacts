@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-class Contactlist extends React .Component {
-  render(){
+class Contactlist extends React.Component {render(){
     const people = [
       {name:'No'},
       {name: 'Yes'},
